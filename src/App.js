@@ -3,7 +3,6 @@ import './App.css';
 import Iframe from 'react-iframe';
 
 
-
 function App() {
   return (
     <div className="App">
@@ -11,11 +10,11 @@ function App() {
         <h1>
           GroupHub
         </h1>
-        <p> The ultimate hub to finding your next community 🌐 </p>
+        <p> The ultimate hub to finding your next community <span role="img" aria-label="world emoji">🌐</span></p>
         <Iframe url="https://airtable.com/embed/shrBJGllgw0q87iSC?backgroundColor=blue&viewControls=on" width="80%" height="500px"/>
       </header>
       <footer className="App-footer">
-        <a href="https://www.google.com/" target="_blank">hello</a>
+        <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">hello</a>
       </footer>
     </div>
   );
