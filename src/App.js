@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Iframe from 'react-iframe';
-
+import world from './world.svg';
 
 function App() {
   return (
@@ -15,6 +15,7 @@ function App() {
         <Iframe url="https://airtable.com/embed/shrBJGllgw0q87iSC?backgroundColor=blue&viewControls=on" width="80%" height="500px"/>
       </header>
       <footer className="App-footer">
+        <p> Made by Anushka and Monika </p>
         <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">hello</a>
       </footer>
     </div>
