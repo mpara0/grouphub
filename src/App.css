@@ -1,9 +1,33 @@
-body {
-  font-family: 'Amiko'
+.airtable {
+  margin: auto;
+  width: 80%;
 }
 
-button {
-  background-color: #DFAED7;
+.App {
+  text-align: center;
+}
+
+.App-body {
+  min-height: 60%;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  min-height: 20%;
+}
+
+body {
+  font-family: 'Amiko';
+  background-color: #2052F9;
+  color: #DFAED7;
+}
+
+.button {
+  background-color: #DFAED7; 
   border: none;
   color: #2052F9;
   padding: 15px 32px;
@@ -18,72 +42,31 @@ button {
   font-family: 'Amiko'
 }
 
-.App {
-  text-align: center;
+.button:hover {
+  background-color: #be96b7;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+div #main {
+  width: 80%
 }
 
-.World-logo {
-  height: 30vmin;
-  right: 0;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #2052F9;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: #DFAED7;
-}
-
-.App-footer {
-  background-color: #2052F9;
-  color: #DFAED7;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.description-p {
-  margin-right: 100px;
-  margin-left: 100px;
+.description {
+  width: 100%;
+  height: 100%; 
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .first-block{
+  width: 50%;
   float: left;
-  width: 50%;
-}
-
-.second-block{
-  float: right;
-  width: 50%;
+  margin: auto;
 }
 
 footer {
-  height: 100px;
+  height: 20%;
 }
 
 .footer-p {
@@ -91,4 +74,9 @@ footer {
   text-align: center;
   vertical-align: middle;
   line-height: 100px;
+}
+
+.World-logo {
+  height: 30vmin;
+  right: 0;
 }
