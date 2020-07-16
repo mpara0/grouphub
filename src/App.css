@@ -1,3 +1,7 @@
+body {
+  font-family: 'Amiko'
+}
+
 button {
   background-color: #DFAED7;
   border: none;
@@ -11,6 +15,7 @@ button {
   cursor: pointer;
   border-radius: 20px;
   display: inline-block;
+  font-family: 'Amiko'
 }
 
 .App {
@@ -25,8 +30,6 @@ button {
 .World-logo {
   height: 30vmin;
   right: 0;
-  
-
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -67,6 +70,16 @@ button {
 .description-p {
   margin-right: 100px;
   margin-left: 100px;
+}
+
+.first-block{
+  float: left;
+  width: 50%;
+}
+
+.second-block{
+  float: right;
+  width: 50%;
 }
 
 footer {
