@@ -2,8 +2,11 @@ import React from 'react';
 import './App.css';
 import Iframe from 'react-iframe';
 import world from './world.svg';
+import ReactGA from 'react-ga';
 
 function App() {
+  ReactGA.initialize(process.env.REACT_APP_googleAnalytics);
+  ReactGA.pageview(window.location.pathname);
   return (
     <div className="App">
       <link href='https://fonts.googleapis.com/css?family=Amiko' rel='stylesheet'></link>
@@ -17,7 +20,7 @@ function App() {
             <h3 className="description-p"> We are devoted to connecting students to different interest groups, and we hope that you are able to find your community here. </h3>
             <div>
               <a href = "https://airtable.com/shrDDDGmh2uab4oTZ" target="_blank" rel="noopener noreferrer"><button class="button">Add Your Community</button></a> 
-              <a href = "https://airtable.com/shrJJaJHFP3bctc4m" target="_blank" rel="noopener noreferrer"><button class="button">Join Our Slack Channel</button></a>
+              <a href = "https://airtable.com/shrnwbACihzelrPte" target="_blank" rel="noopener noreferrer"><button class="button">Join Our Slack Channel</button></a>
             </div>
           </div>
           <div className="side-cols"><img src={world} className="World-logo" alt="world"/></div>
