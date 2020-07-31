@@ -4,9 +4,10 @@ import Iframe from 'react-iframe';
 import world from './world.svg';
 import ReactGA from 'react-ga';
 
+ReactGA.initialize(process.env.REACT_APP_googleAnalytics);
+
 function App() {
-  ReactGA.initialize(process.env.REACT_APP_googleAnalytics);
-  ReactGA.pageview(window.location.pathname);
+  ReactGA.pageview(window.location.pathname + window.location.search);
   return (
     <div className="App">
       <link href='https://fonts.googleapis.com/css?family=Amiko' rel='stylesheet'></link>
