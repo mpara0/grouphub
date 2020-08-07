@@ -12,6 +12,8 @@ function App() {
     <div className="App">
       <link href='https://fonts.googleapis.com/css?family=Amiko' rel='stylesheet'></link>
       <header>
+        <br></br>
+        <a href="https://www.producthunt.com/posts/grouphub?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-grouphub" target="_blank" rel="noopener noreferrer"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=227649&theme=light" alt="Grouphub - creating communities in tech | Product Hunt Embed" width="250px" height="54px" /></a>
         <h1>GroupHub</h1>
       </header>
       <div className="App-body">
