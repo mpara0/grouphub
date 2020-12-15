@@ -1,50 +1,76 @@
+.airtable {
+  margin: auto;
+  width: 80%;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App-body {
+  min-height: 60%;
 }
 
-.World-logo {
-  height: 30vmin;
-  right: 0;
-  
-
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #2052F9;
-  min-height: 100vh;
+header {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: #DFAED7;
+  min-height: 20%;
 }
 
-.App-footer {
+body {
+  font-family: 'Amiko';
   background-color: #2052F9;
   color: #DFAED7;
 }
 
-.App-link {
-  color: #61dafb;
+.button {
+  background-color: #DFAED7; 
+  border: none;
+  color: #2052F9;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 20px;
+  display: inline-block;
+  font-family: 'Amiko'
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button:hover {
+  background-color: #be96b7;
+}
+
+div #main {
+  width: 80%
+}
+
+.description {
+  width: 100%;
+  height: 100%; 
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.side-cols{
+  width: 50%;
+  float: left;
+  margin: auto;
+  display: block;
+}
+
+footer {
+  height: 20%;
+}
+
+.World-logo {
+  height: 30vmin;
+  right: 0;
 }
